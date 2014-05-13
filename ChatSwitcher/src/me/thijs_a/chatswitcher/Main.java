@@ -76,7 +76,31 @@ public class Main extends JavaPlugin implements Listener{
 				 event.setCancelled(true);
 				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Tatanka"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.tatanka");
 				 Bukkit.getLogger().log(Level.INFO,"Tatanka "+ p.getDisplayName() + " : " + message);
+				 
+			 } else if(p.hasPermission("kingdom.trados")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Trados"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.trados");
+				 Bukkit.getLogger().log(Level.INFO,"Trados "+ p.getDisplayName() + " : " + message);
+				
+			 } else if(p.hasPermission("kingdom.oranos")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Oranos"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.oranos");
+				 Bukkit.getLogger().log(Level.INFO,"Oranos "+ p.getDisplayName() + " : " + message);
+	
+			 } else if(p.hasPermission("kingdom.bovarie")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Bovarie"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.bovarie");
+				 Bukkit.getLogger().log(Level.INFO,"Bovarie"+ p.getDisplayName() + " : " + message);
 		 
+			 } else if(p.hasPermission("kingdom.fraza")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Fraza"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.fraza");
+				 Bukkit.getLogger().log(Level.INFO,"Fraza"+ p.getDisplayName() + " : " + message);
+			
+			 } else if(p.hasPermission("kingdom.triano")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Triano"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.triano");
+				 Bukkit.getLogger().log(Level.INFO,"Triano"+ p.getDisplayName() + " : " + message);
 		 
 			 }
 	}
