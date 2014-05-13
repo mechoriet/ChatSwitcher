@@ -71,8 +71,11 @@ public class Main extends JavaPlugin implements Listener{
 		          Bukkit.broadcastMessage(ChatColor.AQUA + "Global " + ChatColor.GRAY + "" + ChatColor.BOLD + "[" + ChatColor.RESET + user.getPrefix() +ChatColor.GRAY + "" + ChatColor.BOLD +  "] " + ChatColor.RESET + p.getDisplayName() + " : " + event.getMessage().replace("!", ""));
 		          Bukkit.getLogger().log(Level.INFO,ChatColor.BLUE + "Global " + ChatColor.RESET + user.getPrefix() + " " + p.getDisplayName() + " : " + event.getMessage().replace("!", ""));
 		          event.setCancelled(true);
-		        
-		          Bukkit.broadcast(user.getPrefix() + message,	"test");
+		          
+			 } else if(p.hasPermission("kingdom.tatanka")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Tatanka"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.tatanka");
+				 Bukkit.getLogger().log(Level.INFO,"Tatanka "+ p.getDisplayName() + " : " + message);
 		 
 		 
 			 }
