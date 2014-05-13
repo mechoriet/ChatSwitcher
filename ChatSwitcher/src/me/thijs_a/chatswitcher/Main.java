@@ -72,7 +72,7 @@ public class Main extends JavaPlugin implements Listener{
 		          Bukkit.getLogger().log(Level.INFO,ChatColor.BLUE + "Global " + ChatColor.RESET + user.getPrefix() + " " + p.getDisplayName() + " : " + event.getMessage().replace("!", ""));
 		          event.setCancelled(true);
 		        
-		          Bukkit.broadcast(user.getPrefix() + message,	"test1234");
+		          Bukkit.broadcast(user.getPrefix() + message,	"test");
 		 
 		 
 			 }
