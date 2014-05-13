@@ -4,5 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="C:/Users/thijs_000/Downloads/bukkit-1.7.2-R0.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/thijs_000/Downloads/PermissionsEx (6).jar"/>
+	<classpathentry kind="lib" path="D:/craftbukkit-1.7.9-R0.1-20140501.232444-18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Floris/Downloads/PermissionsEx.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
