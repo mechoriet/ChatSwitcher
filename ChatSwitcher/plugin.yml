@@ -1,0 +1,20 @@
+name: ChatSwitcher
+description: Switch on and off admin chat
+version: 2
+main: me.thijs_a.chatswitcher.Main
+website: http://twitter.com/thijs_a
+commands:
+  chaton:
+    description: Enable's the chat
+    permission: sc.admin
+  chatoff:
+    description: Disable's the chat
+    permission: sc.admin
+  clearchat:
+    description: Clears the chat
+    permission: sc.admin
+
+permissions:
+  sc.admin:
+    description: For bypassing/toggling the chat
+    default: op
