@@ -101,7 +101,41 @@ public class Main extends JavaPlugin implements Listener{
 				 event.setCancelled(true);
 				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Triano"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.triano");
 				 Bukkit.getLogger().log(Level.INFO,"Triano"+ p.getDisplayName() + " : " + message);
+				
+			 } else if(p.hasPermission("kingdom.rovanie")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Rovanie"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.rovanie");
+				 Bukkit.getLogger().log(Level.INFO,"Rovanie"+ p.getDisplayName() + " : " + message);
+		
+			 } else if(p.hasPermission("kingdom.terra")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Terra"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.terra");
+				 Bukkit.getLogger().log(Level.INFO,"Terra"+ p.getDisplayName() + " : " + message);
+				 
+			 } else if(p.hasPermission("kingdom.Tyga")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Tyga"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.tyga");
+				 Bukkit.getLogger().log(Level.INFO,"Tyga"+ p.getDisplayName() + " : " + message);
 		 
+			 } else if(p.hasPermission("kingdom.Orebro")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Orebro"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.orebro");
+				 Bukkit.getLogger().log(Level.INFO,"Orebro"+ p.getDisplayName() + " : " + message);
+				 
+			 } else if(p.hasPermission("kingdom.Zzerffixia")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Zzerffixia"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.zzerffixia");
+				 Bukkit.getLogger().log(Level.INFO,"Zzerffixia"+ p.getDisplayName() + " : " + message);
+				 
+			 } else if(p.hasPermission("kingdom.Eltro")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Eltro"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.eltro");
+				 Bukkit.getLogger().log(Level.INFO,"Eltro"+ p.getDisplayName() + " : " + message);
+				 
+			 } else if(p.hasPermission("kingdom.Tredia")){
+				 event.setCancelled(true);
+				 Bukkit.broadcast(ChatColor.GRAY + "[@] [" + ChatColor.DARK_GRAY + "Tredia"+ ChatColor.GRAY + "] " + p.getDisplayName() + " : " + message, "kingdom.tredia");
+				 Bukkit.getLogger().log(Level.INFO,"Tredia"+ p.getDisplayName() + " : " + message);
 			 }
 	}
 	
